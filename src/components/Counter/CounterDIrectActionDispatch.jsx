@@ -22,11 +22,10 @@ class CounterDIrectActionDispatch extends React.Component {
       <div>
         <h2>DirectDispatch</h2>
         <div>
-          <button onClick={this.decrement}>-</button>
-          <span>{this.props.count}</span>
-          <button onClick={this.increment}>+</button>
+          <button onClick={this.decrement}>welcome </button>
+          <span></span>
+          <button onClick={this.increment}>ZWE</button>
         </div>
-        <button onClick={this.reset}>reset</button>
       </div>
     )
   }

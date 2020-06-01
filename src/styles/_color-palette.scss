@@ -1,10 +1,16 @@
 $themes: (
     light: (
-        color-background: #FAFAFA,
-        color-card: #FFF
+        color-background:rgb(85, 85, 3),
+        color-card: #FFF,
+        div-color:white,
+        text-color:#000000,
+        button-color:rgb(114, 114, 170)
     ),
     dark: (
         color-background: #37474F,
-        color-card: #212121
+        color-card: #212121,
+        div-color:rgb(63, 26, 63),
+        text-color:white,
+        button-color:green
     )
 );

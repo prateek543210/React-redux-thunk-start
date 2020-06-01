@@ -4,19 +4,21 @@ import './index.scss';
 import App from './App';
 //import SignIn from '../src/components/signin/SignIn';
 
-
+import { ThemeProvider } from 'styled-components';
 
 
 import store from '../src/redux/store/store';
-import {Provider} from 'react-redux';
+import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store = {store}>
+    <Provider store={store}>
       <div>
-     <App/> 
-    </div>
+        <ThemeProvider theme={{ mode: 'theme2' }}>
+          <App />
+        </ThemeProvider>
+      </div>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

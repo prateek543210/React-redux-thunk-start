@@ -11,8 +11,8 @@ function App() {
       <div className="header"></div>
       <div class="content">
         {/* <Counter3/>  */}
-        <Counter2 />
-        <Counter1/>
+        {/* <Counter2 /> */}
+        <Counter1/>  
       </div>
       <div className="footer"></div>
     </div>

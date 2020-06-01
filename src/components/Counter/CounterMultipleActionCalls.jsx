@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import {increment,dicrement,reset} from '../../redux/actions/counterAction';
 import { bindActionCreators } from 'redux';
-import  "./Counter.scss";
+import "./counter.scss";
 class CounterMultipleActionCalls extends React.Component {
   
   render() {
@@ -10,9 +10,9 @@ class CounterMultipleActionCalls extends React.Component {
       <div class="outer-div">
         <h2>Multiple Action Calls</h2>
         <div class="inner-div">
-          <button onClick={this.props.dicrement}>-</button>
+          <button class='inner-div'onClick={this.props.dicrement}>-</button>
           <span>{this.props.count}</span>
-          <button onClick={this.props.increment}>+</button>
+          <button class='inner-div' onClick={this.props.increment}>+</button>
         </div>
         <button onClick={this.props.reset}>reset</button>
       </div>

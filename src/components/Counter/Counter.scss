@@ -1,14 +1,12 @@
-@import "../../styles/1.scss";
-
-/* Use the variables */
 .outer-div {
-  background-color: $bgcolor;
-  color: $textcolor;
-  font-size: 18px;
-}
-
-.inner-div {
-    background-color: $textcolor;
-    color: $bgcolor;
-    font-size: 18px;
+      width: 180px;
+      height:200px;
   }
+
+//   .inner-div {
+//     // @include theme-aware('background-color', 'div-color');
+//     // @include theme-aware('color', 'text-color');
+//      background-color: $textcolor;
+//       color: $bgcolor;
+//       font-size: $fontsize;
+//     }

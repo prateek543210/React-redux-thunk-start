@@ -1,0 +1,25 @@
+// $bgcolor: lightblue;
+// $textcolor: darkblue;
+// $fontsize: 18px;
+
+// @import '../styles/light.scss';
+
+// @import '../styles/dark.scss';
+
+@import '../styles/mixins';
+/* Use the variables */
+.outer-div {
+  // @include theme-aware('background-color', 'div-color');
+  // @include theme-aware('color', 'text-color');
+ background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
+
+.inner-div {
+  // @include theme-aware('background-color', 'div-color');
+  // @include theme-aware('color', 'text-color');
+   background-color: $textcolor;
+    color: $bgcolor;
+    font-size: $fontsize;
+  }
